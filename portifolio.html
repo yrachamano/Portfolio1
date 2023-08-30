@@ -1,22 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifolio</title>
-    <style>
-h1{
-    text-align: center;
-}
-img{
-    width: 200px; 
-   height: 150px;
+    <title>Portfólio</title>
+    
 
-}
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav style="margin-left: 30px;">
+            <a href="#" style="font-size: 2em;"><h1>Portfólio</h1></a>
+        </nav>
+        <nav style="margin-left: 30px;">
+            <a href="#inicio"><small>Inicio</small></a>
+            <a href="#sobre"><Small>Sobre</Small></a>
+            <a href="#tecnologias"><small>Tecnologias</small></a>
+            <a href="#projetos"><small>Projetos</small></a>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="center-content" id="inicio">
+            <h2>Início</h2>
+            <br>
+            <br>
+            <div id="principal">
+        
+                <div class="div1" >  
+                  <p><small>Oi me chamo</small><br>
+                <b style="font-size: 200%; color: rgb(233, 25, 10);" >Daniel Alves.</b><br>
+            <small>Sou estudante da TI na areas de front-end </small></p>
+                </div>
+                <div class="div2">
+                    <img id="fotore" src="/imagens/foto.jpg" width="500px" style="border-radius: 50%; margin-left: 75px;">
+                </div>
+               </div> 
+        </section>
+    
+        <section class="center-content" id="sobre">
+            <h2>Sobre</h2>
+            <br>
+            <br>
+            <div style="text-align: center; width: 50%; margin: 0 auto;">
+            <p>Olá, meu nome é <b>Daniel Alves</b> sou estudante da area de TI na area de front-end.</p>
+           </div>
+        </section>
+    
+        <section class="center-content" id="tecnologias">
+            <h2>Tecnologias</h2>
+            <br>
+            <br>
+            <p style="text-align: center;">Aqui estão algumas das tecnologias com as quais estou estudando:</p>
+            <br>
+            <br>
 
-    </style>
-</head><h1>Daniel Alves</h1>
-<body><img src="/imagens/foto.jpg" alt="Daniel" > <p>olá me chamo Daniel alves e esse e meu portifolio</p>
+            <ul>
+                <li><img src="/imagens/HTML.png" width="25" height="25">HTML 5</li>
+                <li><img src="/imagens/icons8-css-240.png" width="25" height="25">CSS 3</li>
+                <li><img src="/imagens/icons8-javascript-240.png" width="25" height="25">JS</li>
+            </ul>
+                </section>
+                <section class="center-content" id="projetos">
+                    <h2>Projetos</h2>
+                    <br>
+                    <br>
+                    <ul class="projetos-lista">
+                        <li class="projeto-item">
+                            <div class="projeto-titulo">Projeto 1</div>
+                            <div class="em-brever">Em breve</div>
+                        </li>
+                        <li class="projeto-item">
+                            <div class="projeto-titulo">Projeto 2</div>
+                            <div class="em-brever">Em breve</div>
+                        </li>
+                        <li class="projeto-item">
+                            <div class="projeto-titulo">Projeto 3</div>
+                            <div class="em-brever">Em breve</div>
+                        </li>
+                        <li class="projeto-item">
+                            <div class="projeto-titulo">Projeto 4</div>
+                            <div class="em-brever">Em breve</div>
+                        </li>
+                    </ul>                    
+                </section>
+    </main>
+    <footer>
+        <div style="text-align: center; background-color: rgba(82, 79, 79, 0.096); color: white; padding: 20px; ">
+            <p><small>Daniel Alves</small></p>
+            <br>
+            <p><small>Contatos:</small></p>
+            <br>
+            <p><small>
+                <a href="tel:"><img src="/imagens/icons8-whatsapp-48.png" alt="Telefone" width="25" height="25" style="margin-right: 10px;"></a>
+                 
+                <a href="https://github.com/yrachamano"><img src="/imagens/git-hub-roxo.png" width="25" height="25"alt="Github" style="margin-right: 10px;"></a>
+                
+            </small></p>
+        </div>
+    </footer>
     
 </body>
+
 </html>
