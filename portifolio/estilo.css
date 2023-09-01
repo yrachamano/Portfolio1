@@ -5,6 +5,7 @@
 }
 body{
     background-color:black;
+    
 }
 
 header{
@@ -19,6 +20,8 @@ header{
     padding: 20px;
     border-bottom: rgba(0, 0, 0, 0.2);
 }
+
+
 a {
     text-decoration: none;
     color: white;
@@ -40,7 +43,10 @@ section {
     color: white; /* Ou outra cor legível */
     margin-bottom: 20px;
     position: relative;
-    background-color: rgba(148, 131, 134, 0.144);
+    background-image: url(../imagens/tesc.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 section h2 {
@@ -82,7 +88,7 @@ h1{
      color: rgb(118, 233, 10);
     }
     #nome{
-        font-size: 200%; color: rgb(233, 25, 10);
+        font-size: 200%; color: rgb(0, 0, 0);
     }
 
 #principal{
@@ -95,7 +101,14 @@ h1{
 }
 .div1, .div2{
        align-items: center;
+       
 
+}
+#inicio{
+    background-image: url(../imagens/tesc.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #tecnologias{
@@ -113,11 +126,11 @@ h1{
     
 }
 #projetos{
-       background-image: url(../imagens/construcao.avif);
+    background-image: url(../imagens/tesc.avif);
      background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: rgb(156, 1, 1);
+    color: rgb(252, 252, 252);
     
     
 }
