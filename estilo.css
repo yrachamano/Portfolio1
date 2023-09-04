@@ -113,7 +113,7 @@ h1{
 
 }
 #inicio{
-    background-image: url(/imagens/placa-de-circuito-placa-mae-fundo-de-tecnologia-azul_322958-38\ \(1\).png);
+    background-image: url(/imagens/tecnologia.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -124,7 +124,7 @@ h1{
     align-items: center;
     padding: 10px;
     margin: 20px;
-    background-image: url(/imagens/placa-de-circuito-placa-mae-fundo-de-tecnologia-azul_322958-38\ \(1\).png);
+    background-image: url(/imagens/tecnologia.png);
     color: rgb(255, 255, 255); 
      background-repeat: no-repeat;
     background-position: center;
@@ -134,7 +134,7 @@ h1{
     
 }
 #projetos{
-    background-image: url(/imagens/placa-de-circuito-placa-mae-fundo-de-tecnologia-azul_322958-38\ \(1\).png);
+    background-image: url(/imagens/tecnologia.png);
      background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
